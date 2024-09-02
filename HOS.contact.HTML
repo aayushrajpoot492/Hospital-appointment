@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		body{
+			background-image: url(https://media.istockphoto.com/id/1389239804/photo/healthcare-and-medical-doctor-working-in-hospital-with-professional-team-in-physician-nursing.jpg?s=2048x2048&w=is&k=20&c=w_m6FPzgaxUbGS7QaaoQOYu-XVsZ5p5gxI8beVtg3EA=);
+			background-size: cover;
+		}
+		header{
+			width: 100%;
+			height: 70px;
+			display: flex;
+			justify-content: space-between;
+			background-color: rgba(0, 0, 0, 0.1);
+		    align-items: center;
+		    padding: 50px 10px;
+		}
+
+		.logo{
+			color: black;
+			font-size: 35px;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			color: green;
+
+		}
+		.pogo{
+			height: 100px;
+			width: 120px;
+	
+            
+		}
+		img{
+			width: 120px;
+			height: 100px;
+			mix-blend-mode: multiply;
+		}
+
+		 li{
+			display: inline-block;
+			padding: 0px 35px;
+		}
+		li :hover{
+			 color: greenyellow;
+             text-decoration: none;
+        }
+		a{
+		   color: black;
+		   font-size: 20px;
+		   text-decoration: none;
+		   cursor: pointer;
+		}
+		button{
+			background-color: rgba(0, 0, 0, 0.2);
+			border: 3px solid black;
+			border-radius: 50px;
+			padding: 9px 25px;
+			transition-property: background-color ;
+			transition-duration: 1s;	
+			text-decoration: none;
+		    
+		 }
+		 .a1{
+		 	
+		 	color: skyblue;
+		 	text-decoration: none;
+		 
+		 }
+		 button:hover .a1{
+		 	color: greenyellow;
+		 	text-decoration: none;
+		
+		 }
+		button:hover{
+			         background-color:black;
+			         text-decoration: none;
+			        
+		}
+		.glyphicon-earphone{
+			color:greenyellow;
+		}
+		.glyphicon-plus{
+			font-size: 60px;
+			color: red;
+		}
+		footer{
+			width: 100%;
+			height: 70px;
+	        background-color: rgba(0, 0, 0, 0.1);
+	        margin-top: 558px;
+		}
+		ol li{
+               font-size: 20px;
+               font-weight: bold;
+            }
+          
+		    .frontdiv{
+		   	background-color:transparent;
+		   	height: 420px;
+		   	width: 350px;
+		   	margin-left: 170px;
+		    position: absolute;
+		    top: 120px;
+		   	border-radius: 20px;
+		   	opacity: 0.7;
+		   	box-shadow: 0px 0px 60px black;
+		   }
+		   input{
+		   	margin-left: 10px;
+		   	margin-top: 20px;
+		   	width: 300px;
+
+		   }
+		   label{
+		   	margin-left: 10px;
+		   	color: black;
+		   	font-weight: bolder;
+
+		   }
+		     .label0{
+		    position: absolute;
+		    top: 65px;
+		   }
+		     .label1{
+		    position: absolute;
+		    top: 135px;
+		   }
+		   h4{
+		   	margin-left: 10px;
+		   	position: absolute;
+		   	top: 15px;
+		   	font-weight: bolder;
+		   	color: black;
+		   	font-weight: bolder;
+		   }
+		   .input2{
+		   	position: relative;
+		   	bottom: 20px;
+		   }
+		    .input1{
+		   	position: relative;
+		   	top: 10px;
+		   }
+		   .glyphicon-envelope{
+		   	position: relative;
+		    right: 25px;
+		    top:10px;
+		   
+		   }
+		    .glyphicon-lock{
+		   	position: relative;
+		    right: 25px;
+		    position: fixed;
+		    right: 580px;
+		    top: 280px;
+		 
+		   }
+		 
+		   .button2{
+		   	margin-left: 120px;
+		    position: relative;
+		    bottom: 10px;
+		   	background-color: black;
+		   	color: white;
+		   	border: none;
+		   }
+		   .input3{
+		   	          position: relative;
+		   	         bottom: 20px;
+                     padding-top: 20px;
+                     padding-bottom: 20px;
+		   }
+		   
+
+
+    
+	
+	
+ 	</style>
+</head>
+<body>
+	<header>
+		
+		<div class="pogo"><img src="scopes.jpg"> </div>
+		<div class="logo" >HOSPITAL</div>
+		<span class="glyphicon glyphicon-plus"></span>
+		<nav>
+			<ul>
+			    <li><a class="glyphicon glyphicon-home" href="INDEX.HTML">.Home</a></li>
+				<li><a href="HOS.services.HTML">Services</a></li>
+				<li><a class="glyphicon glyphicon-earphone" href="HOS.contact.HTML">.Contact</a></li>
+				<li><a href="HOS.doctors.HTML">Doctors</a></li>
+			</ul>
+		</nav>
+		<button><a class="a1" href="HOS.appointment.HTML">APPOINTMENT</a></button>
+	</header>
+        
+        
+         <div class="frontdiv"><h4>Contact Us Form</h4><br><br>
+          <LABEL class="label0" >Name</LABEL><br>
+         <input class="input1" type="TEXT" name="">	<br>
+          <LABEL class="label1" >E-mail</LABEL><br>
+         <input class="input1" type="TEXT" name="">
+          <span class="glyphicon glyphicon-envelope"></span><br><br>
+         <LABEL class="label2">Phone no.</LABEL><br>
+         <input class="input2" type="NUMBER" placeholder="">
+         
+          <input class="input3" type="text" placeholder="Write Your Message Here...">
+         <button  class="button2">SEND</button>
+        
+      </div>
+   
+
+	<footer>
+		<nav>
+		 <ol>
+		 	<li>+91 9746327843</li>
+		 	<li>Healthiswealthcare@121.com</li>
+		 </ol>
+		</nav>
+	</footer>
+
+</body>
+</html>

@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	 <!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+
+<!-- jQuery library -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+
+	<style type="text/css">
+		body{
+			background-image: url(https://media.istockphoto.com/id/1060912842/photo/abstract-blur-exposure-of-white-silver-color-background-with-bokeh-light-for-design-element.webp?b=1&s=170667a&w=0&k=20&c=z3HtyPlV2p9FxwzrYb5jhx37KV1U5CH6bDzMrTS-1hQ=);
+		    background-position:center;
+		}
+		header{
+			width: 100%;
+			height: 70px;
+			display: flex;
+			justify-content: space-between;
+			background-color: rgba(0, 0, 0, 0.1);
+		    align-items: center;
+		    padding: 50px 10px;
+		}
+
+		.logo{
+			color: black;
+			font-size: 35PX;
+			font-weight: bold;
+			letter-spacing: 1.5px;
+			color: green;
+
+		}
+		.pogo{
+			height: 100px;
+			width: 120px;
+		}
+		.img1{
+			width: 120px;
+			height: 100px;
+			mix-blend-mode: multiply;
+		}
+
+        li{
+			display: inline-block;
+			padding: 0px 35px;
+           
+		}
+		li :hover{
+                 color: blue;
+                 text-decoration: none;
+        }
+		a{
+		   color: black;
+		   font-size: 20px;
+		   text-decoration: none;
+		   cursor: pointer;
+		}
+		button{
+			background-color: rgba(0, 0, 0, 0.2);
+			border: 3px solid black;
+			border-radius: 50px;
+			padding: 9px 25px;
+			transition-property: background-color ;
+			transition-duration: 1s;	
+			text-decoration: none;
+		    
+		 }
+		 .a1{
+		 	
+		 	color: skyblue;
+		 	text-decoration: none;
+		 
+		 }
+		 button:hover .a1{
+		 	color: greenyellow;
+		 	text-decoration: none;
+		
+		 }
+		button:hover{
+			         background-color:black;
+			         text-decoration: none;
+			        
+		}
+		
+		.glyphicon-plus{
+			font-size: 60px;
+			color: red;
+		}
+		footer{
+			width: 100%;
+			height: 70px;
+	        background-color: rgba(0, 0, 0, 0.3);
+	        margin-top: 177px;
+		}
+		ol li{
+               font-size: 20px;
+               font-weight: bold;
+
+		}
+		.a2{
+			color: blue;
+		}
+
+        .div1{
+        	width: 200px;
+        	height: 330px;
+        	background-color: transparent;
+        	box-shadow: 0px 0px 10px black;
+        	margin-left: 45px;
+        	margin-top: 50px;
+        	text-align: center;
+        }
+        img{
+        	width: 200px;
+        	height: 200px;
+        	mix-blend-mode: multiply;
+        }
+         .div2{
+        	width: 200px;
+        	height: 330px;
+        	background-color: transparent;
+        	box-shadow: 0px 0px 10px black;
+        	margin-left: 300px;
+        	position: absolute;
+        	top: 285px;
+        	text-align: center;
+        }
+        .img2{
+        	height: 100px;
+        	width: 100px;
+        	mix-blend-mode: multiply;
+        	position: absolute;
+        	bottom: 100px;
+        	right: 100px;
+        }
+         .div3{
+        	width: 200px;
+        	height: 330px;
+        	background-color: transparent;
+        	box-shadow: 0px 0px 10px black;
+        	margin-left: 550px;
+        	position: absolute;
+        	bottom: 250px;
+        	text-align: center;
+        }
+          .div4{
+        	width: 200px;
+        	height: 330px;
+        	background-color: transparent;
+        	box-shadow: 0px 0px 10px black;
+        	margin-left: 795px;
+        	position: absolute;
+        	top: 290px;
+        	text-align: center;
+        }
+        .div5{
+        	width: 200px;
+        	height: 330px;
+        	background-color: transparent;
+        	box-shadow: 0px 0px 10px black;
+        	margin-left: 1040px;
+        	position: absolute;
+        	bottom: 260px;
+        	text-align: center;
+        }
+         .div6{
+        	width: 200px;
+        	height: 330px;
+        	background-color: transparent;
+        	box-shadow: 0px 0px 10px black;
+        	margin-left: 1280px;
+        	position: absolute;
+        	top: 300px;
+        	text-align: center;
+        }
+        .ABC{
+			border: 2px dashed blue;
+			border-radius: 10px 100px 10px 100px;
+			background-color:skyblue;
+			transition-property: border-radius;
+			transition-duration: 1s;
+			font-size: 15px;
+
+		}
+		.ABC:hover{
+			
+			border-radius: 100px 10px 100px 10px;
+			background-color: greenyellow;  
+		}
+	  .a4 button{
+	  	height: 40px;
+	  }
+
+        
+
+		
+		
+	</style>
+</head>
+<body>
+	<header>
+		
+		<div class="pogo"><img class="img1" src="scopes.jpg"></div>
+		<div class="logo" >HOSPITAL</div>
+		<span class="glyphicon glyphicon-plus"></span>
+		<nav>
+			<ul>
+			    <li><a class="glyphicon glyphicon-home" href="INDEX.HTML">.Home</a></li>
+				<li><a  href="HOS.services.HTML">Services</a></li>
+				<li><a class="glyphicon glyphicon-earphone" href="HOS.contact.HTML">.Contact</a></li>
+				<li><a class="a2" href="HOS.doctors.HTML">Doctors</a></li>
+			</ul>
+		</nav>
+		<button><a class="a1" href="HOS.appointment.HTML">APPOINTMENT</a></button>
+	</header>
+
+        <div class="div1"> <img src="doc1.jpg"> <h3>Dr. DINESH JAIN<br>(Cardiologist)</h3><a class="a4" href="HOS.doc.appo.html"> <button class="ABC">Dr. APPOINTMENT</button></a></div>
+        <div class="div2"> <img src="doc2.jpg"><h3>Dr.SERLYN SONI<br>(Orthopedist)</h3><a class="a4" href="HOS.doc.appo.html"> <button class="ABC">Dr. APPOINTMENT</button></a> </div>
+          <div class="div3"> <img src="doc3.jpg"> <h3>Dr. NITIN KUMAR<br>(Dermatologist)</h3><a class="a4" href="HOS.doc.appo.html"> <button class="ABC">Dr. APPOINTMENT</button></a></div>
+          <div class="div4"> <img src="doc4.jpg"> <h3>Dr. ALKA DUBEY<br>(Neurologist)</h3><a class="a4" href="HOS.doc.appo.html">  <button class="ABC">Dr. APPOINTMENT</button></a></div>
+          <div class="div5"> <img src="doc6.jpg"> <h3>Dr. RAM NAINE<br>(Gynaecologist)</h3><a class="a4" href="HOS.doc.appo.html"><button class="ABC">Dr. APPOINTMENT</button></a> </div>
+           <div class="div6"> <img src="doc5.jpg"> <h3>Dr. ARZO DANGI<br>(Pedlatrics)</h3><a class="a4" href="HOS.doc.appo.html"><button class="ABC"> Dr. APPOINTMENT</button></a></div>
+	<footer>
+		<nav>
+		 <ol>
+		 	<li>+91 9746327843</li>
+		 	<li>Healthiswealthcare@121.com</li>
+		 </ol>
+		</nav>
+	</footer>
+
+</body>
+</html>
